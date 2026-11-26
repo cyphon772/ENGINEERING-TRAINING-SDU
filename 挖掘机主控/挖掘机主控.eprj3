@@ -1,0 +1,96 @@
+{
+  "name": "挖掘机主控",
+  "owner_uuid": "d8450833f143438dad20d1d37cdb6059",
+  "creator_uuid": "d8450833f143438dad20d1d37cdb6059",
+  "created_at": "2026-11-26 09:31:39",
+  "updated_at": "2026-11-26 09:31:39",
+  "modifier_uuid": "d8450833f143438dad20d1d37cdb6059",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "008ca4a2b6eed4cd",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "2bd83290c98510fa": {
+        "uuid": "2bd83290c98510fa",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "fafc34b8fd779f75": {
+        "uuid": "fafc34b8fd779f75",
+        "name": "Schematic1",
+        "board": "2bd83290c98510fa",
+        "source": "",
+        "version": "1795656789042",
+        "updateTime": 1795656789042
+      }
+    },
+    "sheets": {
+      "b27981605fb893c9": {
+        "uuid": "b27981605fb893c9",
+        "title": "电源输入",
+        "schematic_uuid": "fafc34b8fd779f75",
+        "zIndex": 1,
+        "source": "",
+        "version": "1795656789042",
+        "updateTime": 1795656789042
+      }
+    },
+    "pcbs": {
+      "539e979b306eab0d": {
+        "uuid": "539e979b306eab0d",
+        "title": "PCB1",
+        "board": "2bd83290c98510fa",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1795656703724",
+        "updateTime": 1795656703724
+      }
+    },
+    "panels": {
+      "668e57946617ac14": {
+        "uuid": "668e57946617ac14",
+        "title": "Panel1",
+        "zIndex": null
+      }
+    },
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "d8450833f143438dad20d1d37cdb6059"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  },
+  "config": {
+    "defaultSheet": "008ca4a2b6eed4cd",
+    "settings": {
+      "UNIVERSAL": {
+        "dataType": "UNIVERSAL",
+        "data": {
+          "allowLibRename": true,
+          "defaultNetName": true,
+          "wireMultipleNet": true,
+          "netFlagCrossLayerConnection": true,
+          "netLabelCrossPageConnection": true,
+          "busGenerateNetClass": true,
+          "relevanceDisplayRow": "SINGLE",
+          "relevanceBelongSchPage": "NAME",
+          "relevanceLocation": "ZONE",
+          "multipartCrossLayer": true,
+          "nonElectronicAddIntoBom": false,
+          "nonElectronicUpdatePcb": false
+        }
+      }
+    }
+  }
+}
